@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.LoginController">
+   <children>
+      <Label fx:id="nameLabel" alignment="CENTER" layoutX="151.0" layoutY="121.0" prefHeight="30.0" prefWidth="92.0" text="Name:">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font></Label>
+      <TextField fx:id="nameField" layoutX="243.0" layoutY="121.0" prefHeight="35.0" prefWidth="200.0" promptText="Username" />
+      <Label fx:id="passwordLabel" alignment="CENTER" layoutX="141.0" layoutY="197.0" prefHeight="30.0" prefWidth="92.0" text="Password:">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font></Label>
+      <TextField fx:id="passwordField" layoutX="243.0" layoutY="197.0" prefHeight="35.0" prefWidth="200.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="213.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="47.0" prefWidth="175.0" text="Login">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font></Button>
+      <Label layoutX="234.0" layoutY="42.0" text="LogIn Form">
+         <font>
+            <Font name="Times New Roman" size="27.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="300.0" layoutY="72.0" startX="-100.0" />
+   </children>
+</AnchorPane>
